@@ -15,3 +15,5 @@ The code "two_sphere_images_linearity.m" uses "SAR_data_MFS_3D.m" and "twosphere
 The code "single_RCS_recovery.m" uses "SAR_data_MFS_3D.m", "sphere3D.m" and "ellipsoid3D_equal.m" to simulate SAR data for dielectric spheres and ellipsoids and computes the corresponding KM images. It also recovers the RCS spectrum for each target. These plots correspond to Fig. 7 of the manuscript.
 
 The code "two_sphere_rcs_bp.m" uses "SAR_data_MFS_3D.m" and "twospheres.m" to simulate SAR data for two dielectric spheres and computes the corresponding KM and modified KM images to find target locations. These target locations are then used with the array backpropagation method to recover the RCS spectra for the two spheres. These plots correspond to Fig. 8 of the manuscript.
+
+The code "two_sphere_rcs_int.m" uses "SAR_data_MFS_3D.m" and "twospheres.m" to simulate SAR data for two dielectric spheres and computes the corresponding KM and modified KM images to find target locations. These target locations are then used with the interpolation method to recover the RCS spectra for the two spheres. These plots correspond to Fig. 9 of the manuscript.
