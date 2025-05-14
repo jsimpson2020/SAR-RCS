@@ -5,7 +5,7 @@ clc; clear all; close all;
 % seconds (s).
 %
 % This is the code used to generate the images in the manuscript,
-% "Detecting, locating and spectrally characterizing targets with SAR," by
+% "Spectrally characterizing targets with SAR," by
 % A. D. Kim, J. Simpson, and C. Tsogka. The parameters in the code below
 % are those used to generate Fig. 8.
 %
